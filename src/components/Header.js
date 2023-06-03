@@ -2,7 +2,7 @@ import React from 'react'
 
 const Header = () => {
   return (
-    <header className='header' id='header'>
+    <header className='header' id='header' style={{backgroundColor: '#000'}}>
         <nav className='nav container'>
             <a href='#home' className='nav__logo'>Coffee<span>.</span>co{' '}</a>
             <div className='nav__menu' id='nav-menu'>
